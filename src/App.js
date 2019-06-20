@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import meBitmoji from './img/me.png';
+import { Container, Header, Grid, Segment, Image } from 'semantic-ui-react';
+import SocialButtonGroup from './components/SocialButton';
 
-function App() {
+const Home = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Grid columns={1}>
+        <Grid.Column>
+          <Segment basic textAlign="center">
+            <Image
+              src={meBitmoji}
+              alt="me as a bitmoji"
+              circular
+              centered
+              size="medium"
+            />
+            <Header as="h1">
+              Hi, my name is Thibault!
+              <Header.Subheader>
+                Fullstack Engineer - Python / JavaScript
+              </Header.Subheader>
+            </Header>
+            <SocialButtonGroup />
+          </Segment>
+        </Grid.Column>
+      </Grid>
+    </Container>
   );
-}
+};
 
-export default App;
+export default Home;
