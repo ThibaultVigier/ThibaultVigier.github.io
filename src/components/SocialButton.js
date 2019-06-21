@@ -16,7 +16,7 @@ const SocialButtonGroup = () => {
   return (
     <div>
       {socialButtons.map(button => (
-        <SocialButton {...button} />
+        <SocialButton key={`social-button-${button.label}`} {...button} />
       ))}
     </div>
   );
