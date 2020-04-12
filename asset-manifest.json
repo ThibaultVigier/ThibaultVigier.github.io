@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.js": "/thibaultvigier.github.io/static/js/main.be74b3b0.chunk.js",
-    "main.js.map": "/thibaultvigier.github.io/static/js/main.be74b3b0.chunk.js.map",
-    "runtime~main.js": "/thibaultvigier.github.io/static/js/runtime~main.19892a6d.js",
-    "runtime~main.js.map": "/thibaultvigier.github.io/static/js/runtime~main.19892a6d.js.map",
-    "static/css/2.55764cf8.chunk.css": "/thibaultvigier.github.io/static/css/2.55764cf8.chunk.css",
-    "static/js/2.0513ee19.chunk.js": "/thibaultvigier.github.io/static/js/2.0513ee19.chunk.js",
-    "static/js/2.0513ee19.chunk.js.map": "/thibaultvigier.github.io/static/js/2.0513ee19.chunk.js.map",
+    "main.js": "/thibaultvigier.github.io/static/js/main.d493c00a.chunk.js",
+    "main.js.map": "/thibaultvigier.github.io/static/js/main.d493c00a.chunk.js.map",
+    "runtime-main.js": "/thibaultvigier.github.io/static/js/runtime-main.b0f81198.js",
+    "runtime-main.js.map": "/thibaultvigier.github.io/static/js/runtime-main.b0f81198.js.map",
+    "static/css/2.53771b84.chunk.css": "/thibaultvigier.github.io/static/css/2.53771b84.chunk.css",
+    "static/js/2.888acbab.chunk.js": "/thibaultvigier.github.io/static/js/2.888acbab.chunk.js",
+    "static/js/2.888acbab.chunk.js.map": "/thibaultvigier.github.io/static/js/2.888acbab.chunk.js.map",
     "index.html": "/thibaultvigier.github.io/index.html",
-    "precache-manifest.2546a0f17e97e327fca0ecc25ad594ea.js": "/thibaultvigier.github.io/precache-manifest.2546a0f17e97e327fca0ecc25ad594ea.js",
+    "precache-manifest.a874e3a47d5399f93ee5631a8f45c4e3.js": "/thibaultvigier.github.io/precache-manifest.a874e3a47d5399f93ee5631a8f45c4e3.js",
     "service-worker.js": "/thibaultvigier.github.io/service-worker.js",
-    "static/css/2.55764cf8.chunk.css.map": "/thibaultvigier.github.io/static/css/2.55764cf8.chunk.css.map",
+    "static/css/2.53771b84.chunk.css.map": "/thibaultvigier.github.io/static/css/2.53771b84.chunk.css.map",
+    "static/js/2.888acbab.chunk.js.LICENSE.txt": "/thibaultvigier.github.io/static/js/2.888acbab.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/thibaultvigier.github.io/static/media/outline-icons.ef60a4f6.woff",
     "static/media/me.png": "/thibaultvigier.github.io/static/media/me.3e7feb31.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0f81198.js",
+    "static/css/2.53771b84.chunk.css",
+    "static/js/2.888acbab.chunk.js",
+    "static/js/main.d493c00a.chunk.js"
+  ]
 }
